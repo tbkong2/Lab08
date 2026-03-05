@@ -14,7 +14,10 @@ public class CustomList {
         cities.add(city);
     }
     public void deleteCity(City city) {
-     //   cities.remove(city);
+        cities.remove(city);
+    }
+    public int countCity(City city) {
+        return cities.size();
     }
 
     public boolean hasCity(City city) {
